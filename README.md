@@ -144,6 +144,28 @@ Reviewed alert distribution and patterns:
 
 ---
 
+## Analysis Screenshots
+
+### Lab Challenge Question
+![Lab Question](Suricata-Lab-Question.png)
+
+*Challenge: Identify the total count of alerts with signature "SURICATA TCPv4 invalid checksum"*
+
+### Host Traffic Filtering
+![Related IP Filter](Suricata-Host-Filter.png)
+
+*Filtering Suricata logs using related.ip query to isolate traffic between 107.191.44.5 and 172.16.100.52*
+
+### Alert Severity Panel
+![Severity Distribution](Suricata-Severity-Panel.png)
+
+*Low Severity (Sev 3) alerts panel showing triggered Suricata signatures and alert counts*
+
+### Alert Count Analysis
+![Alert Volume](Suricata-Alert-Counts.png)
+
+*Final count: 109,487 alerts for SURICATA TCPv4 invalid checksum signature*
+
 **Analysis Date:** 2025 (Lab Environment)  
 **Platform:** Suricata IDS + Elastic SIEM  
 **Alert Volume:** 109,487 alerts analyzed  
